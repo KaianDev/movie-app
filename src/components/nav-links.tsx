@@ -12,6 +12,10 @@ export const NavLinks = () => {
         <NavLink href="#">Articles</NavLink>
         <NavLink href="#">Contact Us</NavLink>
       </div>
+
+      {/* Separator */}
+      <div className="h-8 border-l border-zinc-400" />
+
       {/* Socials */}
       <div className="flex gap-6">
         <a href="">
@@ -27,6 +31,10 @@ export const NavLinks = () => {
           <FaPinterest className="size-5 hover:text-red-500" />
         </a>
       </div>
+
+      {/* Separator */}
+      <div className="h-8 border-l border-zinc-400" />
+
       {/* Search */}
       <button>
         <IoSearchOutline className="size-5" />
