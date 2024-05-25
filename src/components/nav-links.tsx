@@ -1,6 +1,6 @@
-import { NavLink } from "./nav-link"
-import { FaFacebook, FaTwitter, FaYoutube, FaPinterest } from "react-icons/fa6"
-import { IoSearchOutline } from "react-icons/io5"
+import { NavLink } from "./nav-link";
+import { FaFacebook, FaTwitter, FaYoutube, FaPinterest } from "react-icons/fa6";
+import { IoSearchOutline } from "react-icons/io5";
 
 export const NavLinks = () => {
   return (
@@ -40,5 +40,5 @@ export const NavLinks = () => {
         <IoSearchOutline className="size-5" />
       </button>
     </div>
-  )
-}
+  );
+};

@@ -1,4 +1,4 @@
-import { NavLinks } from "./nav-links"
+import { NavLinks } from "./nav-links";
 
 export const NavBar = () => {
   return (
@@ -7,5 +7,5 @@ export const NavBar = () => {
 
       <NavLinks />
     </header>
-  )
-}
+  );
+};
