@@ -7,14 +7,14 @@ interface CardItemProps {
 export const CardItem = ({ serie }: CardItemProps) => {
   return (
     <div className="w-full overflow-hidden rounded-md bg-white shadow">
-      <div className="relative">
+      <div className="relative group">
         <img
           src={serie.cover}
           alt={serie.title}
           className="w-full h-[280px] object-cover object-top md:object-center"
         />
         {serie.badges && serie.badges?.length > 0 && (
-          <div className="absolute top-3 right-3 flex gap-2">
+          <div className="absolute flex -top-9 group-hover:top-3 right-3 gap-2 ease-in duration-300">
             {serie.badges.map((badge) => (
               <div
                 key={badge}
