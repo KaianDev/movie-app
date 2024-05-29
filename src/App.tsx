@@ -1,7 +1,8 @@
-import { Banner } from "./components/banner"
+import { NavBar } from "./components/nav-bar"
 import { Hero } from "./components/hero"
 import { MainContent } from "./components/main-content"
-import { NavBar } from "./components/nav-bar"
+import { Banner } from "./components/banner"
+import { Footer } from "./components/footer"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <MainContent />
       <Banner />
+      <Footer />
     </div>
   )
 }
