@@ -16,7 +16,7 @@ export const series: Serie[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ",
     date: "08.08.2021",
-    cover: "/card-image.png",
+    cover: "/card-image-2.png",
     badges: ["horror", "vecna"],
   },
   {
@@ -34,7 +34,7 @@ export const series: Serie[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ",
     date: "08.08.2021",
-    cover: "/card-image.png",
+    cover: "/card-image-2.png",
     badges: ["horror", "vecna"],
   },
   {
@@ -70,7 +70,7 @@ export const series: Serie[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ",
     date: "08.08.2021",
-    cover: "/card-image.png",
+    cover: "/card-image-2.png",
     badges: ["horror", "vecna"],
   },
 ]

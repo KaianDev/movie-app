@@ -1,7 +1,6 @@
 import { useState } from "react"
+import { FiltersType } from "../types/filter-type"
 import { CardsGrid } from "./cards-grid"
-
-type FiltersType = "all" | "adventure" | "horror"
 
 export const MainContent = () => {
   const [filterType, setFilterType] = useState<FiltersType>("all")
@@ -29,7 +28,7 @@ export const MainContent = () => {
           ))}
         </div>
 
-        <CardsGrid />
+        <CardsGrid filterType={filterType} />
       </div>
     </div>
   )
