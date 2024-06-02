@@ -6,6 +6,7 @@ export const NavBar = () => {
       <strong className="uppercase">Stranger Things</strong>
 
       <NavLinks />
+      
     </header>
   );
 };
