@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div className="h-[600px] w-full bg-[url('/bg.png')] bg-no-repeat bg-center bg-[#0A0C0D] relative">
+    <div className="h-[600px] w-full bg-[url('/bg.png')] bg-no-repeat bg-left md:bg-center bg-[#0A0C0D] relative">
       {/* Gradient */}
       <div className="bg-gradient-to-r from-[#0a0c0d] h-full absolute inset-0" />
 
@@ -28,5 +28,5 @@ export const Hero = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
